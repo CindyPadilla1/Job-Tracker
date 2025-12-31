@@ -1,27 +1,34 @@
-#Job Tracker
+# Job Tracker
 
-#Project Overview
+---
 
-Job Tracker is a modern, responsive web application that helps users track their job applications. Add, view, and delete jobs while keeping track of the status of each application. This project demonstrates a full-stack React + Node.js app with Tailwind CSS styling, localStorage persistence, and a clean, professional UI suitable for a portfolio.
+## Project Overview
 
-#Features
+Job Tracker is a modern, responsive web application that helps users track their job applications. Add, view, and delete jobs while keeping track of the status of each application. This project demonstrates a **full-stack React + Node.js app** with **Tailwind CSS styling**, localStorage persistence, and a clean, professional UI suitable for a portfolio.
 
-Add new jobs with title, company, and status
+---
 
-Delete jobs easily
+## Features
 
-Colored status badges for quick visual reference:
+- Add new jobs with **title, company, and status**  
+- Delete jobs easily  
+- Colored **status badges** for quick visual reference:  
+  - **Applied** → Yellow  
+  - **Interview** → Blue  
+  - **Offer** → Green  
+  - **Rejected** → Red  
+- **Responsive design** for desktop and mobile  
+- **Persistent storage** using localStorage  
+- Modern UI with **Tailwind CSS**, hover effects, and card layout  
 
-Applied → Yellow
+---
 
-Interview → Blue
+## Tech Stack
 
-Offer → Green
+- **Frontend:** React 18, Vite, Tailwind CSS  
+- **Backend:** Node.js, Express (in-memory storage)  
+- **Styling:** Tailwind CSS for responsive, modern design  
+- **State Persistence:** localStorage  
 
-Rejected → Red
+---
 
-Responsive design for desktop and mobile
-
-Persistent storage using localStorage
-
-Modern UI with Tailwind CSS, hover effects, and card layout
